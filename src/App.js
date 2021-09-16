@@ -60,7 +60,7 @@ function App() {
           <Route exact path="/about">
             <About />
           </Route>
-          <Route exact path="/textform">
+          <Route exact path="/">
         <TextForm title="Input Text Below:" mode={mode} />
           </Route>
         </Switch>
